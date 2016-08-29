@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.panel-custom {
+	background-color: #319eb6;
+	color: white;
+	border-color: #319eb6;
+}
+
+.panel-body {
+	background-color: white;
+}
+
+.btn-custom {
+	background-color: #319eb6;
+	border-color: #319eb6;
+}
+
+.btn-custom:hover{
+	color: white;
+	background-color: #277e91;
+	border-color: #277e91;
+}
