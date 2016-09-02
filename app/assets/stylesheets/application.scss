@@ -16,6 +16,24 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-custom {
+	background-color: #319eb6;
+	border-radius: 0px;
+	color: white;
+}
+
+.navbar-custom a {
+	color: white;
+}
+
+.navbar-nav li a:hover {
+	background-color: #319eb6;
+}
+
+.navbar-nav li a:focus {
+	background-color: #319eb6;
+}
+
 .panel-custom {
 	background-color: #319eb6;
 	color: white;
@@ -31,6 +49,7 @@
 	background-color: #319eb6;
 	border-color: #319eb6;
 	color: white;
+	text-decoration: none;
 }
 
 .btn-custom:hover{
