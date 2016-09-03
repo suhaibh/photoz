@@ -1,2 +1,23 @@
 <h1>Photoz</h1>
-<%= link_to "Create New Account", new_user_registration_path, class: "btn btn-lg btn-custom" %>
+
+<div class="row">
+<div class="col-lg-12">
+	<div class="jumbotron text-center">
+		<h3>Welcome to your creativity's new home</h3>
+		<p class="lead">Try us out for free right now</p>
+	</div>
+</div>
+</div>
+
+<div class="row">
+	<div class="well col-lg-4 col-lg-offset-1">
+		<p class="lead"><strong>Free</strong></p>
+		<p>Sign up for our basic service at no cost now!</p>
+		<%= link_to "Sign Up Free", new_user_registration_path, class: "btn btn-custom" %>
+	</div>
+	<div class="well col-lg-4 col-lg-offset-1">
+		<p class="lead"><strong>Premium</strong></p>
+		<p>Sign up for our paid premium service!</p>
+		<%= link_to "Sign Up Premium", "#", class: "btn btn-custom" %>
+	</div>
+</div>
