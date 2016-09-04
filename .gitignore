@@ -13,4 +13,4 @@
 /tmp
 
 # Ignore secrets.yml
-*.yml
+secrets.yml
