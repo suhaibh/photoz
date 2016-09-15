@@ -25,7 +25,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'stripe'
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'figaro'
+gem 'fog'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
